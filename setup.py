@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="flask_cloudflared",
-    version="0.0.13",
+    name="flask_cloudflared-fix",
+    version="0.0.1",
     author="Ralf Rademacher",
     description="Start a TryCloudflare Tunnel from your flask app.",
     long_description=long_description,
